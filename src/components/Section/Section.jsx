@@ -4,7 +4,7 @@ import css from './Section.module.css';
 export function Section({ children, title }) {
   return (
     <div>
-      {title && <h2 className={css.title}>{title}</h2>}
+      {title && <h1 className={css.title}>{title}</h1>}
       {children}
     </div>
   );
